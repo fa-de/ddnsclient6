@@ -9,6 +9,11 @@ Usage:
       -d    -- Start in daemon-mode (logs into /var/log/ddnsclient)  
       -v    -- verbose output  
 
+Dependencies:
+
+* openssl
+* Linux (for netstat)
+
 Known issues / TODO:  
 * Make config for upstart etc  
 * Reduce non-verbose logging (and log to syslog?)  
