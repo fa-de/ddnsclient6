@@ -1,7 +1,7 @@
 # ddnsclient6
 A dyndns-compatible client for dynamic IPv6 addresses
 
-ddnsclient listens via netstat for changes in the IPv6 address and performs a request to a dyndns-compatible server for every address which is not filtered out in the function `filter_ip()`
+ddnsclient listens via netlink for changes in the IPv6 address and performs a request to a dyndns-compatible server for every address which is not filtered out in the function `filter_ip()`
 
 Usage:
 
